@@ -47,6 +47,6 @@ gulp.task('gulp_watch',()=>{
     })
 })
 
-gulp.task('default',['server','compile:js','compile:scss','conpile:html','watch','gulp_watch'],()=>{
+gulp.task('default',['server','compile:js','compile:scss','compile:html','watch','gulp_watch'],()=>{
     console.log('everything is done!');
 })
