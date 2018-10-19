@@ -1,16 +1,17 @@
 
-.home-container {
-    display: flex; flex-direction: column;
-    justify-content: space-between;
+/*
+html{
+    font-size:16px;
 }
-
-.header, .footer {
-    flex-grow: 0; flex-shrink: 0;
+body,div,input,ul{
+    margin:0;
+    padding:0;
 }
+body{
+    color: #000;
 
-main {
-    flex-grow: 1; flex-shrink: 1;
-    overflow: hidden;
+    word-wrap: break-word;
+    font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
 }
 
 .header { height: 1.2rem; background: rgb(0,179,138); color: #fff; text-align:center;font-size: .506667rem; line-height: 1.2rem;}
@@ -25,27 +26,6 @@ main {
 
 .constom-info__btn--login { width: 2.24rem;  height: .8rem; line-height: .8rem;border-radius: .4rem;background: #f5f5f5; color: #00b38a;text-align: center;font-size: .4rem; }
 
-.footer { 
-    width: 100%; height: 1.226667rem;border-top: 1px solid #e8e8e8;
-    background-color: #f6f6f6;
-    color: #c2cfcc; display: flex;
-}
-
-.footer__item {
-    flex-grow: 1; display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .44rem;
-}
-
-.footer__item:first-child i {
-    transform: translate(0px,-3px);
-}
-
-.footer__item.active {
-    color: #00b38a;
-    background-color: #e7f3f0;
-}
 
 .job-item {
     height: 2.426667rem;padding: .373333rem;
@@ -69,7 +49,7 @@ main {
 .job-item__info {
     flex-grow: 1;
     /* background: red; */
-    height: 100%;
+ /*   height: 100%;
     padding-left: .266667rem;
 }
 
@@ -97,5 +77,377 @@ main {
     font-size: .4rem;
     background-color: #fafafa;
 }
+*/
+
+body,div,input,ul{
+    margin:0;
+    padding:0;
+}
+body{
+    color: #000;
+
+    word-wrap: break-word;
+    font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
+}
+.home-container {
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,.footer {
+    flex-grow: 0; flex-shrink: 0;
+}
+
+ main{
+    flex-grow: 1; flex-shrink: 1;
+    overflow: auto;
+}
+.header{
+    height:4.7rem;
+    font-size: 0.875rem;
+    background-color: white;
+    width: 100%;
+    line-height: 1.25rem;
+    border-bottom:1PX solid #E6E6E6;
+}
+.icon-img {
+    height: 1em;
+    position:absolute;
+    top:0.9rem;
+    left:1.25rem;
+    }
+.location{
+position:absolute;
+top:0.62rem;
+left:5.5rem;
+    white-space: nowrap;
+    
+}
+.build-name{
+    max-width: 4.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.icon-xiajiaobiao{
+    position:absolute;
+    top:0.1rem;
+    left:5rem;
+    height:0.5rem;
+    width:0.5rem;
+
+}
+.icon-sousuo{
+    position:absolute;
+    
+    left:0.5rem;
+    height:0.5rem;
+    width:0.5rem;
+    color: #C6C6C6;
+}
+.search{
+    width:9.375rem;
+    position: absolute;
+    top:0.1875rem;
+    right:0.4375rem;
+    height: 1.875rem;
+    background: #FFFFFF;
+    border: 0.0625rem solid #E6E6E6;
+    border-radius: 2.1875rem;
+    text-align: left;
+    line-height: 1.875rem;
+}
+    .search span {
+        font-size: 0.875rem;
+        color: #C6C6C6;
+        margin-left: 0.3125rem;
+        position:absolute;
+        left:1.5rem;
+    }
+
+    .nav {
+        display:flex;
+        flex-flow: nowrap;
+       overflow-x: auto;
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        
+       top:2.2rem;
+       left:-1.7rem;
+       width:88%;
+       overflow: hidden;
+     }
+
+    .swiper-wrapper {
+        
+        
+       position:absolute;
+       left:0.625rem;
+
+       width:100px;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .swiper-slide {
+        position:absolute;
+    }
+   .nav-item{
+      
+       position:absolute;
+        display: inline-block;
+        box-sizing: border-box;
+        color: #262626;
+        font-size: 14PX;
+        text-align: center;
+        line-height: 40PX;
+        background-size: contain;
+        background-position: center right;
+        background-repeat: no-repeat;
+    
+    }
+.nav-item span{
+   
+   
+    height: 100%;
+    margin: 0 0.9375rem;
+    box-sizing: border-box;
+    border-bottom: 0.125rem solid transparent;
+
+}
+
+.swiper2{
+    height:18.125rem;
+    width:24rem;
+    background:red;
+    position:relative;
+   left:-0.625rem;
+    margin:0;
+    padding:0;
+   
+
+}
+.wrapper2{
+    margin:0;
+    padding:0;
+   
+}
+
+    .swiper2 .wrapper2 .swiper-slide img{
+        margin:0;
+        display:block;
+        height:100%;
+        width:100%;
+    }
+
+ .banner-slider {
+        
+    width: auto;
+    left: auto;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0 0.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.625rem;
+    }
+    .nav_5_bg{
+       
 
 
+background:url("https://j-image.missfresh.cn/img_20181014220458727.png" );
+background-size:23.4375rem 14.0625rem;
+    }
+.nav_5{
+    width: 100%;
+    height: 6.8125rem;
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+    top:1.4rem;
+   
+}
+.nav_5_item{
+    flex: 1;
+    text-align:center;
+}
+.nav_5_item img{
+   
+    width: 2.5rem;
+    
+}
+
+
+.nav_2{
+    padding: 0 0.9375rem;
+   
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    top:-0.625rem;
+   
+}
+
+.nav_2_item img{
+    width: 10.625rem;
+    height: 6.25rem;
+}
+.tupian img{
+   height:8.4375rem;
+   width:100%;
+}
+//chanpin
+.product-_item{
+    background: #fff;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+   
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
+    -moz-flex: 1 1 0;
+    flex: 1 1 0;
+    position: relative;
+    box-sizing: border-box;
+    padding: 1.375rem 0;
+    border-bottom: 0.0625rem solid #f5f5f5;
+    margin:0 0.625rem;
+}
+
+.left .img—big{
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-right: 0.9375rem;
+    margin-left: 0.3125rem;
+    position: relative;
+}
+.left .img—small{
+    height: 2rem;
+    position:absolute;
+    top:1.5rem;
+}
+.right-contier{
+position:relative;
+left:-10px;
+}
+.right .p_one{
+    font-size: 1rem;
+    color: #474245;
+    width: 12.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.right .p_two{
+    font-size: 0.875rem;
+    color: #969696;
+    width: 12.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.right .p_two{
+background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 140, 154);
+    color: rgb(204, 140, 154);}
+ .four{
+    font-size: 1rem;
+    letter-spacing: -1PX;
+    display: inline;
+    vertical-align: baseline;
+    margin-left: -0.3125rem;
+    color: rgb(255, 72, 145);
+}
+.four span{
+
+    font-size: 0.75rem;
+    letter-spacing: -1PX;
+    display: inline-block;
+   
+    vertical-align: baseline;
+    margin-left: -0.3125rem;
+    color: rgb(150, 150, 150);
+    position:relative;
+    left:0.625rem;
+    text-decoration: line-through;
+    
+}
+.four-p{
+    vertical-align: top;
+    margin-left: -0.3125rem;
+    color: rgb(255, 72, 145);
+    font-size: 0.75rem;
+    line-height: 1;
+}
+//footer
+.footer { 
+    width: 100%; height: 3.7rem;border-top: 1px solid #f6f6f6;
+    background-color: white;
+    color: #262626;display: flex;
+}
+
+.footer__item {
+    flex-grow: 1; display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+.footer__item:first-child i {
+    transform: translate(0px,-3px);
+}
+
+.footer__item.active {
+    color: #FF5BA4;
+    background-color: #e7f3f0;
+}
+
+//tip
+.tip{
+    position: absolute;
+    top:4.7rem;
+    width: 100%;
+    height: 2rem;
+    color: #4b4b4b;
+    background: #fff9e3;
+    font-size: 0.75rem;
+    opacity: .9;
+    z-index: 10;
+    display:none;
+}
+.tip p{
+    float: left;
+    line-height: 2rem;
+    font-style: normal;
+    color: #4b4b4b;
+    font-size: 0.75rem;
+   
+}
+//点击某一项颜色变红
+.nav-item.active span{
+   color:red
+}
+.xiala{
+    position: absolute;
+    top: 2.625rem;
+    left: 22.3125rem;
+}

@@ -1,0 +1,13 @@
+{
+    "is_business": 1,
+    "business_hours": "09:00 - 21:00",
+    "msg": "成功",
+    "code": 0,
+    "img_url": "https://j-image.missfresh.cn/img_20161026155900764.png",
+    "delivery_type": 1,
+    "warning_msg": "本地21:00点-09:00点下单，9点起送2小时达，会员可1小时达",
+    "station_code": "MRYX|mryx_bj_jtl",
+    "first_page_addr_text": "",
+    "type": 0,
+    "whiteChromeImageUrl": "https://j-image.missfresh.cn/img_20180806223401894.png"
+}

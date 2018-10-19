@@ -1,0 +1,93 @@
+{
+    "newArrived": 0,
+    "code": 0,
+    "pay_info": {
+        "wechat_pay_text": "亿万用户的选择，更快更安全",
+        "wechat_pay_icon": "https://j-image.missfresh.cn/img_20180323152004703.png"
+    },
+    "wx_tag_info": {
+        "tab_mine": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20180519050141615.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20180519050154989.png",
+            "name": "我的",
+            "tag": "tab_mine"
+        },
+        "tab_redpacket": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20170411171424129.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20170411171510637.png",
+            "name": "红包",
+            "tag": "tab_redpacket"
+        },
+        "discover": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20171114000029027.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20171114000041609.png",
+            "name": "新鲜事",
+            "tag": "discover"
+        },
+        "tab_home": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20180519045804300.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20180519050430382.png",
+            "name": "首页"
+        },
+        "new_vp": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20180803182854681.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20180803183109191.png",
+            "name": "会员+",
+            "tag": "new_vp"
+        },
+        "tab_welfare": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20170411171424129.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20170411171510637.png",
+            "name": "发福利",
+            "tag": "tab_welfare"
+        },
+        "tab_shopcar": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20180519050117838.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20180519050032927.png",
+            "name": "购物车"
+        },
+        "tab_group_buying": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20170411171708657.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20170411171727391.png",
+            "name": "品牌团",
+            "tag": "tab_group_buying"
+        },
+        "discover_new": {
+            "selectImageUrl": "https://j-image.missfresh.cn/img_20180829111250040.png",
+            "imageUrl": "https://j-image.missfresh.cn/img_20180829111205019.png",
+            "name": "发现",
+            "tag": "discover_new"
+        }
+    },
+    "is_binding_phone": -1,
+    "tag_info": [],
+    "myBalanceTitle": "余额 · 储值",
+    "priceTag": "https://j-image.missfresh.cn/img_20180115162106648.png",
+    "notice_board_back_image": "",
+    "user_member_type": 0,
+    "showNewUserPopInfo": {
+        "isShowNewUserPop": 1,
+        "bottomPopImg": "",
+        "userHaveOrder": -1,
+        "newUserPopImg": "https://j-image.missfresh.cn/img_20180723200229314.png"
+    },
+    "first_pop_text": "做任务，领奖励",
+    "quick_login_android": 0,
+    "agreement_url": "",
+    "screenshot_flag": "0",
+    "category_area_back_image": "",
+    "discover_tag_show": 0,
+    "groupTabShow": 0,
+    "is_binding_wx": -1,
+    "myBalanceIcon": "https://j-image.missfresh.cn/img_20180205201631182.gif",
+    "bind_phone_tips": "",
+    "countryTabShow": 1,
+    "cart_image_small": "",
+    "quick_login_ios": 0,
+    "bind_wx_tips": "",
+    "isVipShowInvite": 1,
+    "success": true,
+    "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+    "screenshot_url": "",
+    "discover_app_tag_show": 1
+}

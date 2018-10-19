@@ -1,17 +1,24 @@
 
+import home_model from '../models/home_model';
+
 import job_template from '../views/home-job.html';
+import FiveMenu from '../views/FiveMenu.html';
+import TwoMenu from '../views/TwoMenu.html';
 import job_content_template from '../views/home-job-content.html';
 import job_model    from '../models/home_job_model';
 
 import BScroll from 'better-scroll';
 
-// 当前加载的职位信息的页数
-let _pageNo = 1;
+
 let datasources = [] // job页面要显示的所有的数据
+let _BigImg_data=[]
+let _FiveMenu_data=[]
+let _TwoMenu_data=[]
+let _ProductList_data=[]
 const render = () => {
     
     // 初始加载一下 首页的框架
-    let _template = Handlebars.compile(job_template);
+  /*  let _template = Handlebars.compile(job_template);
     let _html = _template();
     $('.home-container main').html(_html);
     handleContentScroll();
@@ -93,6 +100,150 @@ const renderJobList = () => { // 渲染job-content
     $('.home-container main .job-content').html(_html)
 }
 
+*/
+
+    //  渲染job视图
+   
+
+
+//大的轮播图
+
+const getBigImg = async () => {
+     _BigImg_data = await home_model.list();
+     console.log(_BigImg_data);
+    _BigImg_data=_BigImg_data.product_list.banner;
+    
+   
+    datasources = [..._BigImg_data ]
+    renderBigImg()
+
+
+   
+}
+
+
+const renderBigImg = () => { // 渲染job-content
+    // 将html字符串处理成编译函数
+   
+    let _template = Handlebars.compile(job_template)
+    // 将handlebar模板编译成html格式的字符串
+    
+    let _html = _template({_BigImg_data: datasources})
+  
+
+    //  渲染job视图
+    $("main").html(_html)
+    var mySwiper2= new Swiper('.swiper2',{
+        speed:300,
+        autoplay:true,
+        loop:true,
+        pagination:{
+            el: '.swiper-pagination',
+            type:'fraction',
+            renderFraction: function (currentClass, totalClass) {
+                  return '<span class="' + currentClass + '"></span>' +
+                         '/' +
+                         '<span class="' + totalClass + '"></span>';
+                },
+        }
+        
+        })
+}
+getBigImg ()
+
+//五个菜单
+const getFiveMenu = async () => {
+     _FiveMenu_data = await home_model.list()
+    _FiveMenu_data= _FiveMenu_data.product_list.categoryAreaV2.lanternArea;
+    
+    
+   
+    renderFiveMenu()
+
+
+   
+}
+
+
+const renderFiveMenu = () => { // 渲染job-content
+    // 将html字符串处理成编译函数
+   
+    let _template = Handlebars.compile(FiveMenu)
+    // 将handlebar模板编译成html格式的字符串
+   // console.log(datasources, 3333333)
+    let _html = _template({ _FiveMenu_data: _FiveMenu_data})
+  
+
+    //  渲染job视图
+    $(".nav_5").html(_html)
+}
+getFiveMenu ()
+
+
+//两个菜单
+const getTwoMenu = async () => {
+    _TwoMenu_data = await home_model.list()
+    _TwoMenu_data=  _TwoMenu_data.product_list.categoryAreaV2.tileArea;
+   
+  
+  
+   renderTwoMenu()
+
+
+  
+}
+
+
+const renderTwoMenu = () => { // 渲染job-content
+   // 将html字符串处理成编译函数
+  
+   let _template = Handlebars.compile(TwoMenu)
+   // 将handlebar模板编译成html格式的字符串
+  // console.log(datasources, 3333333)
+   let _html = _template({  _TwoMenu_data:  _TwoMenu_data})
+ 
+
+   //  渲染job视图
+   $(".nav_2").html(_html)
+}
+getTwoMenu ()
+
+//产品
+
+
+
+const getProductList = async () => {
+    _ProductList_data = await home_model.list()
+    _ProductList_data=  _ProductList_data.product_list.products;
+   
+  console.log(_ProductList_data,333333)
+  
+   renderProductList()
+
+
+  
+}
+
+
+const  renderProductList = () => { // 渲染job-content
+   // 将html字符串处理成编译函数
+  
+   let _template = Handlebars.compile(job_content_template)
+   // 将handlebar模板编译成html格式的字符串
+  // console.log(datasources, 3333333)
+   let _html = _template({  _ProductList_data: _ProductList_data})
+ 
+
+   //  渲染job视图
+   $(".product").html(_html)
+}
+getProductList ()
+
+
+
+
+   
+}
 
 export default {
     render
