@@ -17,7 +17,7 @@ gulp.task("server",()=>{
 gulp.task('compile:js',()=>{
     return gulp.src('./src/javascript/**/*.js')
             .pipe(webpack(webpack_config))
-            .pipe(gulp.dest('./dist/javascript'));
+            .pipe(gulp.dest('./dist/javascripts'));
 })
 //压缩转换scss
 gulp.task('compile:scss',()=>{
@@ -31,16 +31,16 @@ gulp.task('compile:html',()=>{
         .pipe(gulp.dest('./dist'))
 })
 //转化lib库
-gulp.task('compile:lib',()=>{
+gulp.task('compile:static',()=>{
     gulp.src('./src/static/**/*')
         .pipe(gulp.dest('./dist/static'))
 })
 //监听文件内容变化
 gulp.task('watch',()=>{
     gulp.watch('./src/**/*.html',['compile:html']);
-    gulp.watch('./src/javascript/**/*',['compile:js']);
+    gulp.watch('./src/javascripts/**/*',['compile:js']);
     gulp.watch('./src/stylesheets/**/*.scss',['compile:scss']);
-    gulp.watch('./src/static/**/*',['compile:lib'])
+    gulp.watch('./src/static/**/*',['compile:static'])
 })
 //监听目录变化
 gulp.task('gulp_watch',()=>{
@@ -54,6 +54,6 @@ gulp.task('gulp_watch',()=>{
     })
 })
 
-gulp.task('default',['server','compile:js','compile:lib','compile:scss','compile:html','watch','gulp_watch'],()=>{
+gulp.task('default',['server','compile:js','compile:static','compile:scss','compile:html','watch','gulp_watch'],()=>{
     console.log('everything is done!');
 })

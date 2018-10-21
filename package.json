@@ -21,9 +21,7 @@
     "webpack-stream": "^5.1.1"
   },
   "scripts": {
-    "dev": "gulp",
-    "mock": "json-server ./src/static/mock/mock.js -r ./src/static/mock/routes.json",
-    "start": "concurrently \"npm run mock\"  \"npm run dev\""
+    "start" : "gulp"
   },
   "dependencies": {
     "better-scroll": "^1.13.2",

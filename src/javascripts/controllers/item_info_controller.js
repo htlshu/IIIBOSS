@@ -1,14 +1,14 @@
 import item_info from '../views/item_info.html';
 import item_recom from '../views/recom_list.html';
 import info_model from '../models/item_info_model';
-
+ 
 let data = [];
 const render = ()=>{
-    getList();
+    getList(); 
 }
 const getList = async () =>{
     let item_data =await info_model.item_list();
-    let item_list = item_data.data.product;
+    let item_list = item_data.data.products;
     data = item_list;
     renderList();
 }

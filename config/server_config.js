@@ -6,7 +6,7 @@ const server_config = {
     host: 'localhost',
     port: 8080,
     livereload: true,
-    middleware: [
+    /* middleware: [
         proxy('/lagou', { // /lagou 这个是判断依据 当我们请求'http://localhost:8080/lagou/abc'的时候，这个代理就生效了
             target: 'https://m.lagou.com',// 配置目标服务器 当前服务器回去请求 https://m.lagou.com/lagou/abc
             changeOrigin: true,
@@ -18,7 +18,7 @@ const server_config = {
             target: 'http://localhost:3000',
             changeOrigin: true,
         })
-    ]
+    ] */
     // open: true,
     // 以gulp file.js文件路径为基准
     // directoryListing: true
