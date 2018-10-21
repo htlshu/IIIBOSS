@@ -2,7 +2,8 @@
     "msg": "OK",
     "code": 0,
     "data": {
-        "products": [{
+        "products": [
+            {
             "big_stock": 0,
             "sell_out": false,
             "promote_tag": "",
@@ -52,7 +53,8 @@
             "nationwide": 0,
             "market_price": 1190,
             "vip_price": 1190
-        }, {
+        }, 
+        {
             "big_stock": 0,
             "sell_out": false,
             "promote_tag": "",
@@ -102,7 +104,8 @@
             "nationwide": 0,
             "market_price": 590,
             "vip_price": 590
-        }, {
+        }, 
+        {
             "big_stock": 0,
             "sell_out": false,
             "promote_tag": "",
@@ -152,52 +155,8 @@
             "nationwide": 0,
             "market_price": 1390,
             "vip_price": 1390
-        }, {
-            "big_stock": 0,
-            "sell_out": false,
-            "promote_tag": "https://j-image.missfresh.cn/img_20180614095013918.png",
-            "type": "product",
-            "product_tags": null,
-            "price": 990,
-            "supplier": null,
-            "promotion_tag": "",
-            "promote_tag_new": "",
-            "sku": "p-xrhb-jsd-p-hbynhrhlgxg-1g",
-            "stock": 222,
-            "can_use_voucher": 1,
-            "image": "https://fms-image.missfresh.cn/6469225833774269a676cedbce7e2bd9.jpg",
-            "vip_exclusive": 0,
-            "cart_btn_name": "加入购物车",
-            "buy_permission": 0,
-            "seckill_limit": 0,
-            "unit": "1个",
-            "vip_price_pro": {
-                "price_up": {
-                    "show_type": 2,
-                    "color": 9868950,
-                    "price": 990,
-                    "name": "",
-                    "second_price": 0,
-                    "name_color": 9868950,
-                    "price_color": 9868950
-                },
-                "price_down": {
-                    "show_type": 1,
-                    "color": 16730257,
-                    "price": 850,
-                    "name": "",
-                    "second_price": 0,
-                    "name_color": 16730257,
-                    "price_color": 16730257
-                }
-            },
-            "subtitle": "一手能掌握的红肉心",
-            "name": "越南红肉mini火龙果320g*1个",
-            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
-            "nationwide": 0,
-            "market_price": 990,
-            "vip_price": 990
-        }, {
+        },
+         {
             "big_stock": 0,
             "sell_out": false,
             "promote_tag": "https://j-image.missfresh.cn/img_20180615111448207.png",
@@ -251,61 +210,8 @@
             "nationwide": 0,
             "market_price": 1190,
             "vip_price": 790
-        }, {
-            "big_stock": 0,
-            "sell_out": false,
-            "promote_tag": "https://j-image.missfresh.cn/img_20180615111351955.png",
-            "type": "product",
-            "product_tags": [{
-                "name": "特价商品不支持红包",
-                "icon": "https://image.missfresh.cn/category_tag_images/2B60921B92EEC6AC8078B8F5311FEAD1.PNG",
-                "color": 13405338,
-                "type": "property"
-            }],
-            "price": 1990,
-            "supplier": null,
-            "promotion_tag": "不可用红包",
-            "promote_tag_new": "",
-            "sku": "p-hbylbphrhlg-2g",
-            "stock": 126,
-            "can_use_voucher": 0,
-            "image": "https://fms-image.missfresh.cn/0e843912028f44c4b81ea89ccbe2645a.jpg",
-            "vip_exclusive": 2,
-            "cart_btn_name": "加入购物车",
-            "buy_permission": 0,
-            "seckill_limit": 0,
-            "unit": "2个",
-            "vip_price_pro": {
-                "price_up": {
-                    "show_type": 1,
-                    "color": 16730257,
-                    "showTag": 0,
-                    "price": 1990,
-                    "name": "",
-                    "second_price": 0,
-                    "name_color": 16730257,
-                    "price_color": 16730257,
-                    "is_ex_price": 0
-                },
-                "price_down": {
-                    "show_type": 1,
-                    "color": 16301056,
-                    "showTag": 1,
-                    "price": 990,
-                    "name": "优享会员价",
-                    "second_price": 0,
-                    "name_color": 16301056,
-                    "price_color": 16301056,
-                    "is_ex_price": 1
-                }
-            },
-            "subtitle": "90%都是红甜甜果肉的火龙果",
-            "name": "伊岭红肉火龙果*2个",
-            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
-            "nationwide": 0,
-            "market_price": 1990,
-            "vip_price": 990
-        }, {
+        },
+         {
             "big_stock": 0,
             "sell_out": false,
             "promote_tag": "https://j-image.missfresh.cn/img_20180615111530182.png",

@@ -30,7 +30,7 @@ gulp.task('compile:html',()=>{
     gulp.src('./src/**/*.html')
         .pipe(gulp.dest('./dist'))
 })
-//转化lib库
+//转化static库
 gulp.task('compile:static',()=>{
     gulp.src('./src/static/**/*')
         .pipe(gulp.dest('./dist/static'))
