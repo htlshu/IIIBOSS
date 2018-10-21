@@ -1,0 +1,54 @@
+ <!--{{#each _job_list}}
+   
+    <div class="job-item">
+        <img src="https://www.lgstatic.com/{{this.companyLogo}}" class="job-item__logo">
+        <div class="job-item__info">
+            <h2 class="job-item__company">{{this.companyName}}</h2>
+            <p class="job-item__title">
+                {{this.positionName}} [ {{this.city}} ]
+            </p>
+            <p class="job-item__time">{{this.createTime}}</p>
+        </div>
+        <div class="job-item__salary">{{this.salary}}</div>
+    </div>
+    {{/each}}-->
+
+   <!--如果 有推荐图片的话-->
+   {{#each _ProductList_data}}
+   {{#if this.banner.[0].path}}
+    <div class="tupian" style="height:8.4375rem">
+            <img src={{this.banner.[0].path}}>
+    </div>
+    <!--没有的话-->
+    {{else}}
+        <div class="product-_item">
+        <div class="left">
+            <img class="img—big"src={{this.image}}>
+         
+            <img class="img—small"src={{this.promote_tag}}>
+       </div>
+       <div class="right-contier">
+      <div class="right">
+         <p class="p_one">{{this.name}}</p>
+         <p class="p_two">{{this.subtitle}}</p>
+        
+         <p class="p_three"><img class="p_three--img" src={{this.product_tags.icon}}>{{this.product_tags.name}}</p>
+         <!--会员价存在-->
+         {{#if this.vip_price_pro.price_down.name}}
+         <p class="four-p">￥{{this.vip_price_pro.price_up.price}}</p>
+         <p class="five-p">￥{{this.vip_price_pro.price_down.price}} <span>{{this.vip_price_pro.price_down.name}}</span></p>
+        <!--会员价不存在-->
+        {{else}}
+     <p class="four">￥{{this.vip_price_pro.price_down.price}}<span>￥{{this.vip_price_pro.price_up.price}}</span></p>
+     {{/if}}
+     <img class="img"src={{cart_image}}>
+     <div class="goumai">
+         <i class="iconfont icon-11"></i>
+         <span>1</span>
+         <i class="iconfont icon-9"></i>
+        </div>
+      </div>
+      </div>
+     </div>
+     {{/if}}
+  {{/each}}
