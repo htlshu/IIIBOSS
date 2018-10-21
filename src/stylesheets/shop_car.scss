@@ -658,7 +658,7 @@
     align-items: center;
     -webkit-align-items: center;
     position: fixed;
-    bottom: 1.36rem;
+    bottom: 1.76rem;
     left: 0;
     width: 100%;
     height: 1.28rem;
@@ -722,4 +722,34 @@
     border-style: solid;
     width: 0;
     height: 0;
+}
+//footer
+.footer {
+    width: 100%;
+    height: 1.8133rem;
+    border-top: 1px solid #f6f6f6;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.footer__item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.4rem;
+    line-height: 1.8;
+    color: #262626;
+}
+
+
+
+.footer__item.active {
+    color: #FF5BA4;
+    background-color: #e7f3f0;
 }

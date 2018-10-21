@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>购物车</title>
+    <link rel="stylesheet" href="/static/fonts/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/static/fonts/xiasanjiao/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/static/fonts/search/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/static/fonts/icon2/iconfont.css">
     <script src="./static/javascripts/flexible.js"></script>
     <link rel="stylesheet" href="./stylesheets/shop_car.css">
 </head>
+
 <body>
     <div>
         <div class="C-prom-wrap">
@@ -32,7 +37,7 @@
             </div>
         </div>
         <div class="C-block-wrap C-group-wrap">
-            
+
         </div>
         <div class="price-list-panel">
             <ul>
@@ -148,8 +153,8 @@
         <div class="P-recommend-wrap">
             <h2 class="P-recommend-header">推荐商品</h2>
             <ul class="P-recommend-list flex">
-                
-                
+
+
             </ul>
             <p class="P-recommend-nomore">没有更多了</p>
         </div>
@@ -171,8 +176,16 @@
                 </div>
             </div>
         </div>
-
+        <div class="footer">
+            <a path="#/job" href="#/job" class="footer__item active nav-link"><i class="iconfont icon-home"></i>首页</a>
+            <a path="#/vip" href="#/vip" class="footer__item nav-link"><i class="iconfont icon-tianjiahuiyuan"></i>会员+</a>
+            <a path="#/view" href="#/view" class="footer__item nav-link"><i class="iconfont icon-faxian"></i>发现</a>
+            <a path="#/cat" href="#" class="footer__item nav-link"><i class="iconfont icon-cart "></i>
+                <span class="catNum"></span>购物车</a>
+            <a path="#/profile" href="#/profile" class="footer__item nav-link"><i class="iconfont icon-user"></i>我的</a>
+        </div>
     </div>
+    <script src="./javascripts/app.js"></script>
     <script src="./static/javascripts/zepto.min.js"></script>
     <script src="./static/javascripts/handlebars-v4.0.12.js"></script>
     <script src="./javascripts/shop_car.js"></script>

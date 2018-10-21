@@ -4,7 +4,7 @@ const webpack_config = {
     mode: 'production',
     entry: {
         shop_car: './src/javascripts/shop_car.js',
-        
+        app : './src/javascripts/app.js'
     },
     // entry: ['./src/javascripts/app.js', './src/javascripts/vendor.js'],
     output: {

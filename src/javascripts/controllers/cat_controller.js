@@ -1,4 +1,4 @@
-import cat_template from '../views/cat.html';
+import cat_template from '../../shop_car.html';
 
 const render = () => {
     $('.home-container main').html(cat_template);

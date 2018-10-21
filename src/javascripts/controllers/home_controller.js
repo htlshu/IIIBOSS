@@ -62,7 +62,7 @@ const renderheaderMenu = () => { // 渲染job-content
 //点击下拉符号轮播图消失，
 $('main').on("tap",'.xiala',function(){
     console.log(555)
-    $('.xialaMenu').css('display', 'block');
+    $('.xialaMenu').css('display', 'flex');
     $('.nav').css('display', 'none');
     $('.title').css('display', 'block');
     $('.xiala').css('display', 'none');
