@@ -1,0 +1,31 @@
+{{#each _list}}
+<li class="P-recommend-item">
+    <div class="P-recommend-item-box">
+        <div class="P-recommend-item-image">
+            <img class="P-recommend-item-img" src="{{this.image}}" alt="">
+            <img class="P-recommend-item-promote-tag" src="{{this.promote_tag}}" alt="">
+        </div>
+        <div class="P-recommend-item-tags">
+            <span class="P-recommend-item-tag">{{this.product_tags.name}}</span>
+        </div>
+    </div>
+    <p class="P-recommend-item-name">{{this.name}}</p>
+    <div class="flex">
+        <div class="P-recommend-item-price-content">
+            <p class="P-recommend-item-coupon-price flex hide-opacity">
+                <span></span>
+                <span>￥</span>
+                <span>11.9</span>
+            </p>
+            <p class="P-recommend-item-price flex">
+                <span>￥</span>
+                <span>{{this.market_price/100}}</span>
+                <span class="line-through">￥{{this.vip_price/100}}</span>
+            </p>
+        </div>
+        <div class="P-recommend-item-add-car">
+            <img class="P-recommend-item-add-car-img" src="{{this.cart_image}}" alt="">
+        </div>
+    </div>
+</li>
+{{/each}}

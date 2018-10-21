@@ -1,0 +1,28 @@
+{{#each _list}}
+<div class="C-checkbox">
+    <i class="C-checkbox-c"></i>
+</div>
+<div class="P-item-image">
+    <img src="{{this.image}}" alt="" class="P-item-img">
+    <img src="{{this.promote_tag}}" alt="" class="P-item-imt-tag">
+</div>
+<div class="P-item-info">
+    <p class="P-item-info-line P-item-name">{{this.name}}</p>
+    <p class="P-item-info-line P-ltem-tags">
+        <span class="P-item-tag place-tag">
+            <img src="{{this.product_tags.icon}}" alt="" class="P-item--tag-icon">
+            {{this.product_tags.name}}
+        </span>
+    </p>
+    <p class="P-item-info-line P-item-price flex">
+        <span class="P-item-price-unit">￥</span>
+        <span class="P-item-price-price">{{this.market_price/100}}</span>
+        <span class="P-item-price-origin">￥{{this.vip_price/100}}</span>
+    </p>
+    <div class="P-item-controller flex">
+        <span class="P-item-controller-btn sub">-</span>
+        <span class="P-item-controller-num">1</span>
+        <span class="P-item-controller-btn add">+</span>
+    </div>
+</div>
+{{/each}}
