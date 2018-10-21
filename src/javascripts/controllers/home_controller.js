@@ -4,11 +4,13 @@ import home_model from '../models/home_model';
 import header_menu from '../views/header-menu.html'; 
 import tip from '../views/tip.html'; 
 
+import xialaMenu from '../views/xialaMenu.html'; 
 
 
 let _job_data={};
 let _headerMenu_data={};
 let _tip_data={};
+let _xialaMenu_data={}
 // 负责将home视图模板渲染在对应的地方
 const render = () => {
     // 刚才说了，一切皆模块，说明html也是模块，看一下它暴露的是什么 发现是字符串
@@ -26,7 +28,7 @@ const render = () => {
 const getheaderMenu = async () => {
     _headerMenu_data = await home_model.list()
     _headerMenu_data=_headerMenu_data.category_list;
-    
+    console.log(_headerMenu_data)
 
         
     renderheaderMenu()
@@ -47,17 +49,33 @@ const renderheaderMenu = () => { // 渲染job-content
         slidesPerView: "auto",
         slideToClickedSlide: true,
         on:{
-            tap: function(){
-               
-              $("this span").addClass("active")
+            tap: function(e){
+               console.log($(e.target).css("color","red").siblings())
+              $(e.target).css("color","red").siblings().css("color","#262626")
              
             },
           },
         
         })
+
+
 //点击下拉符号轮播图消失，
-$(".xiala").on("tap",function(){
-    alert(1111111111111111111)
+$('main').on("tap",'.xiala',function(){
+    console.log(555)
+    $('.xialaMenu').css('display', 'block');
+    $('.nav').css('display', 'none');
+    $('.title').css('display', 'block');
+    $('.xiala').css('display', 'none');
+    $('.title i').css('display', 'block');
+})
+//复原
+$('.title').on("tap",'.title i',function(){
+    console.log(555)
+    $('.xialaMenu').css('display', 'none');
+    $('.nav').css('display', 'block');
+    $('.title').css('display', 'none');
+    $('.xiala').css('display', 'block');
+    $('.title i').css('display', 'none');
 })
    
 }
@@ -97,11 +115,37 @@ const renderTip = () => { // 渲染job-content
     let _html = _template({ _tip_data : _tip_data})
     //  渲染job视图
     $(".tip").html(_html)
+    setTimeout(function(){
+        $('.tip').css("display","none")
+    },3000)
 }
 getTip()
 
+const search=()=>{
+    $('.search').tap(function(){
+       alert(11111)
+    })
+}
+search()
 
-
+//渲染下拉菜单
+const getxialaMenu = async () => {
+    
+    _xialaMenu_data = await home_model.list()
+    _xialaMenu_data= _xialaMenu_data.category_list;
+        
+    renderxialaMenu()
+}
+const renderxialaMenu = () => { // 渲染job-content
+    // 将html字符串处理成编译函数
+    let _template = Handlebars.compile(xialaMenu)
+    // 将handlebar模板编译成html格式的字符串
+    let _html = _template({ _xialaMenu_data : _xialaMenu_data})
+    //  渲染job视图
+    $(".xialaMenu").html(_html)
+}
+getxialaMenu()
+//点击搜索框
 
 
 }

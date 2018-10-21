@@ -36,11 +36,17 @@
          <!--会员价存在-->
          {{#if this.vip_price_pro.price_down.name}}
          <p class="four-p">￥{{this.vip_price_pro.price_up.price}}</p>
-         <p class="five-p">￥{{this.vip_price_pro.price_down.price}} {{this.vip_price_pro.price_down.name}}</p>
+         <p class="five-p">￥{{this.vip_price_pro.price_down.price}} <span>{{this.vip_price_pro.price_down.name}}</span></p>
         <!--会员价不存在-->
         {{else}}
      <p class="four">￥{{this.vip_price_pro.price_down.price}}<span>￥{{this.vip_price_pro.price_up.price}}</span></p>
      {{/if}}
+     <img class="img"src={{cart_image}}>
+     <div class="goumai">
+         <i class="iconfont icon-11"></i>
+         <span>1</span>
+         <i class="iconfont icon-9"></i>
+        </div>
       </div>
       </div>
      </div>

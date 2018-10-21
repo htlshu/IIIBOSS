@@ -1,0 +1,320 @@
+{
+    "msg": "OK",
+    "code": 0,
+    "data": {
+        "products": [
+            {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "",
+            "type": "product",
+            "product_tags": [{
+                "name": "100%第三方权威检测",
+                "icon": "https://image.missfresh.cn/category_tag_images/41735BDF5DEB4C2CBEBB4C13EF28E466.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 1190,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-HBhjbxg-2g",
+            "stock": 5,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/7429f21fb20b449f905399158cc5779b.jpg",
+            "vip_exclusive": 0,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "2个",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 0,
+                    "color": 9868950,
+                    "price": 1190,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 9868950,
+                    "price_color": 9868950
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "price": 1190,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257
+                }
+            },
+            "subtitle": "仿佛吃到上百种水果的香甜",
+            "name": "黄金百香果60g起*2个",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 1190,
+            "vip_price": 1190
+        }, 
+        {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "",
+            "type": "product",
+            "product_tags": [{
+                "name": "100%第三方权威检测",
+                "icon": "https://image.missfresh.cn/category_tag_images/41735BDF5DEB4C2CBEBB4C13EF28E466.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 590,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-HBscaynm-2g",
+            "stock": 22,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/ec8c86eba5f8456daad6ce04d65e6ca6.jpg",
+            "vip_exclusive": 0,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "2个",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 0,
+                    "color": 9868950,
+                    "price": 590,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 9868950,
+                    "price_color": 9868950
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "price": 590,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257
+                }
+            },
+            "subtitle": "榨果汁做烹饪 样样精通",
+            "name": "安岳柠檬90g起*2个",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 590,
+            "vip_price": 590
+        }, 
+        {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "",
+            "type": "product",
+            "product_tags": [{
+                "name": "进口检验合格",
+                "icon": "https://image.missfresh.cn/category_tag_images/4F714FFE698178AEB812AF38AC3416EA.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 1390,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-hyd-mxgnyg-2g",
+            "stock": 27,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/474163aad49e41e893cb7c9703b8a716.jpg",
+            "vip_exclusive": 0,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "2个",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 0,
+                    "color": 9868950,
+                    "price": 1390,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 9868950,
+                    "price_color": 9868950
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "price": 1390,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257
+                }
+            },
+            "subtitle": "口感像乳酪   营养不简单",
+            "name": "牛油果125g*2个",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 1390,
+            "vip_price": 1390
+        },
+         {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "https://j-image.missfresh.cn/img_20180615111448207.png",
+            "type": "product",
+            "product_tags": [{
+                "name": "100%第三方权威检测",
+                "icon": "https://image.missfresh.cn/category_tag_images/41735BDF5DEB4C2CBEBB4C13EF28E466.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 1190,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-hbynhrhlgxg-1g",
+            "stock": 222,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/1d4ea5f95b1a46bb8ea19f1bdc8f51a5.jpg",
+            "vip_exclusive": 2,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "1个",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "showTag": 0,
+                    "price": 1190,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257,
+                    "is_ex_price": 0
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16301056,
+                    "showTag": 1,
+                    "price": 790,
+                    "name": "优享会员价",
+                    "second_price": 0,
+                    "name_color": 16301056,
+                    "price_color": 16301056,
+                    "is_ex_price": 1
+                }
+            },
+            "subtitle": "一手能掌握的红肉心",
+            "name": "越南红肉火龙果320g起",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 1190,
+            "vip_price": 790
+        },
+         {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "https://j-image.missfresh.cn/img_20180615111530182.png",
+            "type": "product",
+            "product_tags": [{
+                "name": "进口检验合格",
+                "icon": "https://image.missfresh.cn/category_tag_images/4F714FFE698178AEB812AF38AC3416EA.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 990,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-hbjkxj1j-1d",
+            "stock": 236,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/7987604337ac485287baf57b46d1d98a.jpg",
+            "vip_exclusive": 2,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "1袋",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "showTag": 0,
+                    "price": 990,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257,
+                    "is_ex_price": 0
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16301056,
+                    "showTag": 1,
+                    "price": 690,
+                    "name": "优享会员价",
+                    "second_price": 0,
+                    "name_color": 16301056,
+                    "price_color": 16301056,
+                    "is_ex_price": 1
+                }
+            },
+            "subtitle": "跟鲜花一起运过来的香蕉",
+            "name": "进口香蕉1斤*1袋",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 990,
+            "vip_price": 690
+        }, {
+            "big_stock": 0,
+            "sell_out": false,
+            "promote_tag": "",
+            "type": "product",
+            "product_tags": [{
+                "name": "100%第三方权威检测",
+                "icon": "https://image.missfresh.cn/category_tag_images/41735BDF5DEB4C2CBEBB4C13EF28E466.PNG",
+                "color": 13405338,
+                "type": "property"
+            }],
+            "price": 990,
+            "supplier": null,
+            "promotion_tag": "",
+            "promote_tag_new": "",
+            "sku": "p-HBhgl-4g",
+            "stock": 6,
+            "can_use_voucher": 1,
+            "image": "https://fms-image.missfresh.cn/ecac03c667004c63a3511ff48a4bc529.jpg",
+            "vip_exclusive": 0,
+            "cart_btn_name": "加入购物车",
+            "buy_permission": 0,
+            "seckill_limit": 0,
+            "unit": "4个",
+            "vip_price_pro": {
+                "price_up": {
+                    "show_type": 0,
+                    "color": 9868950,
+                    "price": 990,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 9868950,
+                    "price_color": 9868950
+                },
+                "price_down": {
+                    "show_type": 1,
+                    "color": 16730257,
+                    "price": 990,
+                    "name": "",
+                    "second_price": 0,
+                    "name_color": 16730257,
+                    "price_color": 16730257
+                }
+            },
+            "subtitle": "天气这么干 吃个脆梨吧",
+            "name": "皇冠梨240g起*4个",
+            "cart_image": "https://j-image.missfresh.cn/img_20170425134548759.png",
+            "nationwide": 0,
+            "market_price": 990,
+            "vip_price": 990
+        }]
+    }
+}

@@ -45,11 +45,21 @@ const tip = () => {
 
 }
 
-
+const search=()=>{
+   
+    return  $.ajax({
+        url: '/static/mock/search.json',
+     //  url: '/api/job/list_time',
+       success: (res) => {
+           return res;
+       }
+   })
+}
 
 export default {
     list,
     footer,
-    tip
+    tip,
+    search
 
 }

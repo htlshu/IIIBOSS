@@ -1,0 +1,33 @@
+<h3 class="tuijian_p">推荐商品</h3>
+{{#each  _tuijian_data.like_result.product_list}}
+      <div class="product-_item">
+      <div class="left">
+          <img class="img—big"src={{this.image}}>
+       
+          <img class="img—small"src={{this.promote_tag}}>
+     </div>
+     <div class="right-contier">
+    <div class="right">
+       <p class="p_one">{{this.name}}</p>
+       <p class="p_two">{{this.subtitle}}</p>
+      
+      
+       <!--会员价存在-->
+       {{#if this.vip_price_pro.price_down.name}}
+       <p class="four-p">￥{{this.vip_price_pro.price_up.price}}</p>
+       <p class="five-p">￥{{this.vip_price_pro.price_down.name}} <span>{{this.vip_price_pro.price_down.price}}</span></p>
+      <!--会员价不存在-->
+      {{else}}
+   <p class="four">￥{{this.vip_price_pro.price_down.price}}</p>
+   {{/if}}
+   <img class="img"src={{cart_image}}>
+   <div class="goumai">
+        <i class="iconfont icon-11"></i>
+        <span></span>
+        <i class="iconfont icon-9"></i>
+       </div>
+    </div>
+    </div>
+   </div>
+ 
+{{/each}} 
