@@ -150,10 +150,11 @@ getxialaMenu()
 
 }
 
-// // 切换标签
+// 切换标签
 // const switchTab = () => {
 //     $('.footer__item').on('tap', function () {
-//         let _controllers = [ job_controller, search_controller, profile_controller ];
+//         console.log("ok")
+//         let _controllers = [ job_controller, search_controller,view_controller,cat_controller, profile_controller, ];
 //         _controllers[$(this).index()].render();
 //         $(this).addClass('active').siblings().removeClass('active');
 //     })

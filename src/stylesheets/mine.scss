@@ -1,0 +1,161 @@
+
+.mine_header{
+    width: 100%;
+    height: 2.64rem;
+    background: url(//static-as.missfresh.cn/frontend/user/static/img/my-bg.95ae718.png) 100%;
+    padding-top: 1.68rem;
+
+    a{
+        display: block;
+        height: .96rem;
+        width: 2.213333rem;
+        margin: 0 auto;
+        line-height: .96rem;
+        font-size: .373333rem;
+        color: #ff4891;
+        text-align: center;
+        border: 2px solid #ff4891;
+        border-radius: .106667rem;
+    }
+}
+#user_items{
+    height: 1.866667rem;
+    padding: .32rem 0;
+    ul{
+        padding: .266667rem 0;
+        // overflow: auto;
+        li{
+            width: 25%;
+            float: left;
+            text-align: center;
+            color: #4d4d4d;
+            font-size: .32rem;
+            line-height: .586667rem;
+            position: relative;
+            span{
+                display: block;
+                i{
+                    font-style: normal;
+                    font-size: .426667rem;
+                }
+            }
+            img{
+                height: .32rem;
+                width: .64rem;
+                position: absolute;
+                right: -0.16rem;
+                top: .4rem;
+            }
+        }
+    }
+}
+#plus{
+    padding: 0 .4rem;
+    .mine_plus{
+        width: 100%;
+        p.top{
+            width: 100%;
+            line-height: .8rem;
+            position: relative;
+            span.left{
+                line-height: .8rem;
+                font-size: .533333rem;
+                color: #474245;
+                float: left;
+            }
+            span.right{
+                float: right;
+                text-align: right;
+                color: #969696;
+                font-size: .32rem;
+                padding-right: .266667rem;
+            }
+        }
+        p.down{
+            width: 100%;
+            height: .8rem;
+            line-height: .8rem;
+            color: #969696;
+            font-size: .32rem;
+            overflow: auto;
+        }
+    }
+}
+#plus_items{
+    height: 1.466667rem;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: .4rem;
+    position: relative;
+    ul#move_plus_items{
+        width: 100%;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        li{
+            width: 24%;
+            display: inline-block;
+            span.top{
+                color: #474245;
+                text-decoration: none;
+                display: block;
+                // text-align: center;
+                font-size: .32rem;
+                img{
+                    height: .746667rem;
+                    width: .746667rem;
+                   
+                    margin-left: .24rem;
+                }
+            }
+            span.down{
+                display: block;
+            }
+        }
+    }
+}
+#user_task{
+    overflow: auto;
+    padding: 10px 10px 0;
+    ul{
+        li.left{
+            float: left;
+            width: 50%;
+            text-align: center;
+            img{
+                width: 100%;;
+            }
+        }
+        li.right{
+            float: left;
+            width: 50%;
+            text-align: center;
+            img{
+                width: 100%;;
+            }
+        }
+    }
+}
+#footer_nav{
+    ul{
+        li{
+            margin: 0 .4rem;
+            height: 1.6rem;
+            line-height: 1.6rem;
+            border-bottom: 2px solid #f0f0f0;
+            color: #4d4d4d;
+            font-weight: 700,;
+            font-size: .4rem;
+            position: relative;
+            span{
+                display: block;
+                text-align: right;
+                padding-right: .266667rem;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}
