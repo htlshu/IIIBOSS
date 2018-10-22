@@ -122,10 +122,10 @@ const render = () => {
     }
 
 
-    const renderBigImg = () => { // 渲染job-content
+    const renderBigImg = async() => { // 渲染job-content
         // 将html字符串处理成编译函数
 
-        let _template = Handlebars.compile(job_template)
+        let _template = await Handlebars.compile(job_template)
         // 将handlebar模板编译成html格式的字符串
 
         let _html = _template({ _BigImg_data: datasources })
@@ -133,6 +133,7 @@ const render = () => {
 
         //  渲染job视图
         $("main").html(_html)
+        $('.header').css("display","block")
         var mySwiper2 = new Swiper('.swiper2', {
             speed: 300,
             autoplay: true,

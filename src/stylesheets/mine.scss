@@ -1,65 +1,65 @@
 
 .mine_header{
     width: 100%;
-    height: 2.64rem;
+    height: 6.1875rem;
     background: url(//static-as.missfresh.cn/frontend/user/static/img/my-bg.95ae718.png) 100%;
-    padding-top: 1.68rem;
+    padding-top: 3.9375rem;
 
     a{
         display: block;
-        height: .96rem;
-        width: 2.213333rem;
+        height: 2.25rem;
+        width: 5.1875rem;
         margin: 0 auto;
-        line-height: .96rem;
-        font-size: .373333rem;
+        line-height: 2.25rem;
+        font-size: .875rem;
         color: #ff4891;
         text-align: center;
         border: 2px solid #ff4891;
-        border-radius: .106667rem;
+        border-radius: .25rem;
     }
 }
 #user_items{
-    height: 1.866667rem;
-    padding: .32rem 0;
+    height: 4.375rem;
+    padding: .75rem 0;
     ul{
-        padding: .266667rem 0;
+        padding: .625rem 0;
         // overflow: auto;
         li{
             width: 25%;
             float: left;
             text-align: center;
             color: #4d4d4d;
-            font-size: .32rem;
-            line-height: .586667rem;
+            font-size: .75rem;
+            line-height: 1.375rem;
             position: relative;
             span{
                 display: block;
                 i{
                     font-style: normal;
-                    font-size: .426667rem;
+                    font-size: 1rem;
                 }
             }
             img{
-                height: .32rem;
-                width: .64rem;
+                height: .75rem;
+                width: 1.5rem;
                 position: absolute;
-                right: -0.16rem;
-                top: .4rem;
+                right: -0.375rem;
+                top: .9375rem;
             }
         }
     }
 }
 #plus{
-    padding: 0 .4rem;
+    padding: 0 .9375rem;
     .mine_plus{
         width: 100%;
         p.top{
             width: 100%;
-            line-height: .8rem;
+            line-height: 1.875rem;
             position: relative;
             span.left{
-                line-height: .8rem;
-                font-size: .533333rem;
+                line-height: 1.875rem;
+                font-size: 1.25rem;
                 color: #474245;
                 float: left;
             }
@@ -67,32 +67,29 @@
                 float: right;
                 text-align: right;
                 color: #969696;
-                font-size: .32rem;
-                padding-right: .266667rem;
+                font-size: .75rem;
+                padding-right: .625rem;
             }
         }
         p.down{
             width: 100%;
-            height: .8rem;
-            line-height: .8rem;
+            height: 1.875rem;
+            line-height: 1.875rem;
             color: #969696;
-            font-size: .32rem;
+            font-size: .75rem;
             overflow: auto;
         }
     }
 }
 #plus_items{
-    height: 1.466667rem;
+    height: 3.4375rem;
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
-    padding: .4rem;
-    position: relative;
+    padding: .9375rem;
     ul#move_plus_items{
         width: 100%;
-        position: absolute;
-        left: 30px;
-        top: 20px;
+        position: relative;
         li{
             width: 24%;
             display: inline-block;
@@ -101,23 +98,24 @@
                 text-decoration: none;
                 display: block;
                 // text-align: center;
-                font-size: .32rem;
+                font-size: .75rem;
                 img{
-                    height: .746667rem;
-                    width: .746667rem;
+                    height: 1.75rem;
+                    width: 1.75rem;
                    
-                    margin-left: .24rem;
+                    margin-left: .5625rem;
                 }
             }
             span.down{
                 display: block;
+                font-size: .75rem;
             }
         }
     }
 }
 #user_task{
     overflow: auto;
-    padding: 10px 10px 0;
+    padding: .625rem .625rem 0;
     ul{
         li.left{
             float: left;
@@ -140,18 +138,18 @@
 #footer_nav{
     ul{
         li{
-            margin: 0 .4rem;
-            height: 1.6rem;
-            line-height: 1.6rem;
+            margin: 0 .9375rem;
+            height: 3.75rem;
+            line-height: 3.75rem;
             border-bottom: 2px solid #f0f0f0;
             color: #4d4d4d;
             font-weight: 700,;
-            font-size: .4rem;
+            font-size: .9375rem;
             position: relative;
             span{
                 display: block;
                 text-align: right;
-                padding-right: .266667rem;
+                padding-right: .625rem;
                 position: absolute;
                 right: 0;
                 top: 0;
