@@ -56,10 +56,22 @@ const search=()=>{
    })
 }
 
+const keyproduct=()=>{
+   
+    return  $.ajax({
+        url: '/static/mock/getkeyproduct.json',
+     //  url: '/api/job/list_time',
+       success: (res) => {
+           return res;
+       }
+   })
+}
+
 export default {
     list,
     footer,
     tip,
-    search
+    search,
+    keyproduct
 
 }
