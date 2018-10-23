@@ -11,7 +11,7 @@ const routes = {
     '#/job': job_controller,
     '#/vip': search_controller,
     '#/view':view_controller,
-    '#/cat':cat_controller,
+    '#/cat':'',
     '#/profile': profile_controller,
     '#/search':search_list_product,
     '#/login':login_controller
