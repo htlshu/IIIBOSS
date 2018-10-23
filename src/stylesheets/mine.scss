@@ -21,8 +21,10 @@
 #user_items{
     height: 4.375rem;
     padding: .75rem 0;
+    height: 100%;
     ul{
         padding: .625rem 0;
+        height: 4.375rem;
         // overflow: auto;
         li{
             width: 25%;
@@ -48,39 +50,40 @@
             }
         }
     }
-}
-#plus{
-    padding: 0 .9375rem;
-    .mine_plus{
-        width: 100%;
-        p.top{
+    #plus{
+        padding: 0 .9375rem;
+        .mine_plus{
             width: 100%;
-            line-height: 1.875rem;
-            position: relative;
-            span.left{
+            p.top{
+                width: 100%;
                 line-height: 1.875rem;
-                font-size: 1.25rem;
-                color: #474245;
-                float: left;
+                position: relative;
+                span.left{
+                    line-height: 1.875rem;
+                    font-size: 1.25rem;
+                    color: #474245;
+                    float: left;
+                }
+                span.right{
+                    float: right;
+                    text-align: right;
+                    color: #969696;
+                    font-size: .75rem;
+                    padding-right: .625rem;
+                }
             }
-            span.right{
-                float: right;
-                text-align: right;
+            p.down{
+                width: 100%;
+                height: 1.875rem;
+                line-height: 1.875rem;
                 color: #969696;
                 font-size: .75rem;
-                padding-right: .625rem;
+                overflow: auto;
             }
-        }
-        p.down{
-            width: 100%;
-            height: 1.875rem;
-            line-height: 1.875rem;
-            color: #969696;
-            font-size: .75rem;
-            overflow: auto;
         }
     }
 }
+
 #plus_items{
     height: 3.4375rem;
     white-space: nowrap;
